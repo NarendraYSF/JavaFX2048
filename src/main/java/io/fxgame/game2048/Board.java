@@ -35,8 +35,7 @@ import javafx.scene.text.TextFlow;
 import javafx.util.Duration;
 
 /**
- * @author Jose Pereda
- * @author Bruno Borges
+ * @author Narendra Yusuf
  */
 public class Board extends Pane {
 
@@ -370,29 +369,12 @@ public class Board extends Pane {
                 t23.getStyleClass().setAll("game-label", "game-lblAboutSub");
 
                 var link2 = new Hyperlink();
-                link2.setText("@JPeredaDnr");
-                link2.setOnAction(e -> Game2048.urlOpener().open("https://twitter.com/JPeredaDnr"));
+                link2.setText("@Narendraysf");
+                link2.setOnAction(e -> Game2048.urlOpener().open("https://narendra-blog.netlify.app/"));
                 link2.getStyleClass().setAll("game-label", "game-lblAboutSub2");
 
-                var t22 = new Text(" & ");
-                t22.getStyleClass().setAll("game-label", "game-lblAboutSub");
 
-                var link3 = new Hyperlink();
-                link3.setText("@brunoborges");
-                link3.setOnAction(e -> Game2048.urlOpener().open("https://twitter.com/brunoborges"));
-
-                var t32 = new Text(" & ");
-                t32.getStyleClass().setAll("game-label", "game-lblAboutSub");
-                link3.getStyleClass().setAll("game-label", "game-lblAboutSub2");
-
-                var t24 = new Text("\n\n");
-                t24.getStyleClass().setAll("game-label", "game-lblAboutSub");
-
-                var t31 = new Text(" Version " + Game2048.VERSION + " - 2015\n\n");
-                t31.getStyleClass().setAll("game-label", "game-lblAboutSub");
-
-                flow.getChildren().setAll(t00, t01, t02, t1, t20, link1, t21, t23, link2, t22, link3);
-                flow.getChildren().addAll(t24, t31);
+                flow.getChildren().setAll(t00, t01, t02, t1, t20, link1, t21, t23, link2);
                 txtOverlay.getChildren().setAll(flow);
                 buttonsOverlay.getChildren().setAll(bContinue);
                 this.getChildren().removeAll(overlay, buttonsOverlay);
