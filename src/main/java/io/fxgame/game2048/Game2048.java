@@ -11,7 +11,7 @@ import javafx.stage.Stage;
 import java.util.Objects;
 
 /**
- * @author Bruno Borges
+ * @author Narendra Yusuf
  */
 public class Game2048 extends Application {
 
