@@ -13,7 +13,7 @@ import java.util.Objects;
 import static io.fxgame.game2048.Direction.*;
 
 /**
- * @author Bruno Borges
+ * @author Narendra Yusuf
  */
 public class GamePane extends StackPane {
 
