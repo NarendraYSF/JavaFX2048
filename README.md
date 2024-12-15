@@ -4,7 +4,7 @@ JavaFX 2048 is a classic puzzle game implemented in Java using the JavaFX framew
 
 ## License
 
-This project is licensed under the **MIT License**. See the LICENSE file for details.
+This project is licensed under the **GNU GENERAL PUBLIC LICENSE**. See the LICENSE[] file for details.
 
 ## How to Clone the Repository
 
