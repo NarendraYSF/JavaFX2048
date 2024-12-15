@@ -1,41 +1,53 @@
-# 2048FX
+# JavaFX 2048 Game
 
-The game 2048 built using JavaFX 16 and Java 17. This is a Java port based on the
-Javascript version: https://github.com/gabrielecirulli/2048.
+JavaFX 2048 is a classic puzzle game implemented in Java using the JavaFX framework. The objective is to combine tiles with the same number to reach the 2048 tile.
 
-Check down below for a screenshot.
+## License
 
-## Releases
+This project is licensed under the **MIT License**. See the LICENSE file for details.
 
-[![JavaFX Build](https://github.com/brunoborges/fx2048/actions/workflows/gradle.yml/badge.svg)](https://github.com/brunoborges/fx2048/actions/workflows/gradle.yml)
+## How to Clone the Repository
 
-You may find binaries available for download, for Windows, Mac and Linux, with Java bundled in. Check successful builds for stable releases.
-
-## Screenshot
-
-![](screenshot.png)
-
-## Building and running
-
-You will need [OpenJDK 17](http://jdk.java.net/) (or newer) installed to build and run the project:
+To clone this repository, use the following command in your terminal:
 
 ```bash
-./gradlew run
+git clone https://github.com/yourusername/javafx-2048.git
 ```
 
-### Create a distribution to your operating system (Windows, Linux, or Mac OS)
+Replace `yourusername` with your GitHub username.
 
-You can create a ZIP file that will bundle a small JRE and the game, or you can create a native OS installer (e.g. MSI, DMG, DEB).
+## How to Run the Program
 
-To create a ZIP bundle, run:
+To run the program, you will need to have **Gradle** installed. You can use `gradlew`, which is included in the repository. Follow these steps:
 
-```bash
-./gradlew dist
-```
+1. **Navigate to the project directory:**
 
-To create a native OS installer, run:
+    ```bash
+    cd javafx-2048
+    ```
 
-1. Run `./gradlew dist jpackage`
+2. **Use the following command to run the application:**
+
+    ```bash
+    ./gradlew run
+    ```
+
+   This command will compile and execute the JavaFX application.
+
+## Additional Information
+
+- Ensure you have **JDK 11 or higher** installed on your machine.
+- For building a distribution package, you can run:
+
+    ```bash
+    ./gradlew dist
+    ```
+
+- To create a native installer, use:
+
+    ```bash
+    ./gradlew jpackage
+    ```
 
 ## Running using Docker
 You can build container image from source code using the Dockerfile and run the containerized game. 
@@ -45,11 +57,3 @@ The final step is to run the container: `docker run -it --rm -e DISPLAY=host.doc
 
 ## Feedback / Contributing / Comments
 Submit an issue and share your thoughts.
-
-### Running with Java 8
-
-If you want to run with Java 8, you can download the tag [java-8](https://github.com/brunoborges/fx2048/releases/tag/java-8). New features in the master branch will not be back-ported.
-
-## License
-
-The project is licensed under GPL 3. See [LICENSE](https://raw.githubusercontent.com/brunoborges/fx2048/master/LICENSE) file for the full license.
