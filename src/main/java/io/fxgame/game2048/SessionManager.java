@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.Properties;
 
 /**
- * @author Jose Pereda
+ * @author Narendra Yusuf
  */
 public class SessionManager {
 
