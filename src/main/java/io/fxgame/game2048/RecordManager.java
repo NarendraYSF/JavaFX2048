@@ -3,7 +3,7 @@ package io.fxgame.game2048;
 import java.util.Properties;
 
 /**
- * @author Jose Pereda
+ * @author Narendra Yusuf
  */
 public class RecordManager {
 
