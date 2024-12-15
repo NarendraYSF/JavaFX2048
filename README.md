@@ -1,6 +1,7 @@
 # JavaFX 2048 Game
 
 JavaFX 2048 is a classic puzzle game implemented in Java using the JavaFX framework. The objective is to combine tiles with the same number to reach the 2048 tile.
+![JavaFX 2048 Demo](https://github.com/NarendraYSF/JavaFX2048/blob/main/Demo2048Shot.png?raw=true)
 
 ## License
 
