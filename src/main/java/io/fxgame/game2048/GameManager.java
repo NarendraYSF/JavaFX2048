@@ -18,8 +18,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 /**
- * @author Bruno Borges
- * @author Jose Pereda
+ * @author Narendra Yusuf
  */
 public class GameManager extends Group {
 
