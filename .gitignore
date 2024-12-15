@@ -1,0 +1,27 @@
+**/*.class
+*.properties
+
+# Package Files #
+**/*.jar
+**/*.war
+**/*.ear
+
+# IDEs
+.classpath
+.project
+.settings
+
+# Gradle
+.gradle/
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# jEnv
+.java-version
+
+bin
+build
+fx2048.iml
+.DS_Store
+.idea/workspace.xml
