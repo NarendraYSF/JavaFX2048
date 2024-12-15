@@ -1,7 +1,7 @@
 package io.fxgame.game2048;
 
 /**
- * @author Bruno Borges
+ * @author Narendra Yusuf
  */
 public record Location(int x, int y) {
 
