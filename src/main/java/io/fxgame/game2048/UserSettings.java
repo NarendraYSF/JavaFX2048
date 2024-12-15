@@ -9,8 +9,7 @@ import java.util.logging.Logger;
 
 /**
  * UserSettings
- * 
- * @author Bruno Borges
+ * @author Narendra Yusuf
  */
 public enum UserSettings {
 
