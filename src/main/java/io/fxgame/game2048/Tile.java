@@ -6,7 +6,7 @@ import java.util.Optional;
 import java.util.Random;
 
 /**
- * @author Bruno Borges
+ * @author Narendra Yusuf
  */
 public class Tile extends Label {
 
