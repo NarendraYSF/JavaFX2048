@@ -12,10 +12,8 @@ This project is licensed under the **GNU GENERAL PUBLIC LICENSE**. See the [LICE
 To clone this repository, use the following command in your terminal:
 
 ```bash
-git clone https://github.com/yourusername/javafx-2048.git
+git clone https://github.com/NarendraYSF/javafx-2048.git
 ```
-
-Replace `yourusername` with your GitHub username.
 
 ## How to Run the Program
 
