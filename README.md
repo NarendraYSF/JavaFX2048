@@ -22,7 +22,7 @@ To run the program, you will need to have **Gradle** installed. You can use `gra
 1. **Navigate to the project directory:**
 
     ```bash
-    cd javafx-2048
+    cd JavaFX2048
     ```
 
 2. **Use the following command to run the application:**
